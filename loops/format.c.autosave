@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include "format.h"
+
+int format_layout (int j, int s, int l)
+{
+    if(j==8)
+    {
+        printf("\n");
+
+        j=0;
+
+    }
+
+    if(s==4)
+       {
+        printf("    ");
+    s=0;
+
+    
+    }
+return s++;
+return j++;
+return l++;
+}

@@ -64,3 +64,21 @@ void print_summa_result(int value)
     else
              printf("Summa=%i\n", value);
 }
+
+/*void func()// void func(void)
+{
+
+}
+
+int main()
+{
+    //printf("Hello World!\n");
+
+    func();
+    func(1);
+    func(2,3);
+    func(4,5,6, "123123");
+
+    return 0;
+}*/
+

@@ -1,8 +1,26 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-void func(void);
+bool openFile()
+{
+    return true;
+}
+
 int main()
 {
-    printf("Hello World!\n");
-    return 0;
+
+    bool isOk = false;
+
+    isOk = openFile();
+
+    if (isOk)
+    {
+
+    }
+    else {
+
+        return 0;
+
+    }
+
 }

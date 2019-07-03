@@ -6,19 +6,33 @@ bool openFile()
     return true;
 }
 
+bool isAvailableDiskMemory()
+{
+    return true;
+}
+
 int main()
 {
 
     bool isOk = false;
 
-    isOk = openFile();
+    //isOk = openFile();
 
-    if (isOk)
+    //if (openFile() && isAvailableDiskMemory()) //1 case
+    if (!openFile()) //2 case
     {
 
     }
     else {
 
+        if (!isAvailableDiskMemory())
+        {
+
+        }
+
+        else {
+
+        }
         return 0;
 
     }
